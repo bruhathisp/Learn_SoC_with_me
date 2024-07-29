@@ -1,1446 +1,190 @@
 1. Current is a vector quantity https://youtu.be/g7DKec-IzoQ?feature=shared
-   Basic Concepts
-Electric Charge:
+Sure, here’s an extensive list of formulas for network theory in electricity, ranging from basic concepts to advanced topics:
 
-𝑄
-=
-𝑛
-𝑒
-Q=ne (where 
-𝑛
-n is the number of electrons, 
-𝑒
-e is the elementary charge)
-Law of Conservation of Charge:
+### Basic Concepts
 
-Total charge before a process = Total charge after the process
-Electric Current:
+1. **Electric Charge:**
+   - \( Q = ne \) (where \( n \) is the number of electrons, \( e \) is the elementary charge)
 
-𝐼
-=
-𝑑
-𝑄
-𝑑
-𝑡
-I= 
-dt
-dQ
-​
-  (where 
-𝑄
-Q is the charge, 
-𝑡
-t is time)
-Conventional Current vs. Electron Current:
+2. **Law of Conservation of Charge:**
+   - Total charge before a process = Total charge after the process
 
-Conventional current flows from positive to negative, whereas electron flow is from negative to positive.
-Electric Potential Difference (Voltage):
+3. **Electric Current:**
+   - \( I = \frac{dQ}{dt} \) (where \( Q \) is the charge, \( t \) is time)
 
-𝑉
-=
-𝑊
-/
-𝑄
-V=W/Q (where 
-𝑊
-W is work done, 
-𝑄
-Q is charge)
-Electric Power:
+4. **Conventional Current vs. Electron Current:**
+   - Conventional current flows from positive to negative, whereas electron flow is from negative to positive.
 
-𝑃
-=
-𝑉
-𝐼
-P=VI
-𝑃
-=
-𝐼
-2
-𝑅
-P=I 
-2
- R
-𝑃
-=
-𝑉
-2
-𝑅
-P= 
-R
-V 
-2
- 
-​
- 
-Circuit Elements
-Resistor:
+5. **Electric Potential Difference (Voltage):**
+   - \( V = W/Q \) (where \( W \) is work done, \( Q \) is charge)
 
-𝑉
-=
-𝐼
-𝑅
-V=IR
-Ohm’s Law:
+6. **Electric Power:**
+   - \( P = VI \)
+   - \( P = I^2R \)
+   - \( P = \frac{V^2}{R} \)
 
-𝑉
-=
-𝐼
-𝑅
-V=IR
-𝐼
-=
-𝑉
-𝑅
-I= 
-R
-V
-​
- 
-𝑅
-=
-𝑉
-𝐼
-R= 
-I
-V
-​
- 
-Inductor:
+### Circuit Elements
 
-𝑉
-𝐿
-=
-𝐿
-𝑑
-𝐼
-𝑑
-𝑡
-V 
-L
-​
- =L 
-dt
-dI
-​
- 
-Energy Stored: 
-𝐸
-=
-1
-2
-𝐿
-𝐼
-2
-E= 
-2
-1
-​
- LI 
-2
- 
-Capacitor:
+1. **Resistor:**
+   - \( V = IR \)
 
-𝑄
-=
-𝐶
-𝑉
-Q=CV
-𝐼
-=
-𝐶
-𝑑
-𝑉
-𝑑
-𝑡
-I=C 
-dt
-dV
-​
- 
-Energy Stored: 
-𝐸
-=
-1
-2
-𝐶
-𝑉
-2
-E= 
-2
-1
-​
- CV 
-2
- 
-Series and Parallel Combinations
-Series Resistors:
+2. **Ohm’s Law:**
+   - \( V = IR \)
+   - \( I = \frac{V}{R} \)
+   - \( R = \frac{V}{I} \)
 
-𝑅
-𝑡
-𝑜
-𝑡
-𝑎
-𝑙
-=
-𝑅
-1
-+
-𝑅
-2
-+
-⋯
-+
-𝑅
-𝑛
-R 
-total
-​
- =R 
-1
-​
- +R 
-2
-​
- +⋯+R 
-n
-​
- 
-Parallel Resistors:
+3. **Inductor:**
+   - \( V_L = L \frac{dI}{dt} \)
+   - Energy Stored: \( E = \frac{1}{2} L I^2 \)
 
-1
-𝑅
-𝑡
-𝑜
-𝑡
-𝑎
-𝑙
-=
-1
-𝑅
-1
-+
-1
-𝑅
-2
-+
-⋯
-+
-1
-𝑅
-𝑛
-R 
-total
-​
- 
-1
-​
- = 
-R 
-1
-​
- 
-1
-​
- + 
-R 
-2
-​
- 
-1
-​
- +⋯+ 
-R 
-n
-​
- 
-1
-​
- 
-Series Capacitors:
+4. **Capacitor:**
+   - \( Q = CV \)
+   - \( I = C \frac{dV}{dt} \)
+   - Energy Stored: \( E = \frac{1}{2} CV^2 \)
 
-1
-𝐶
-𝑡
-𝑜
-𝑡
-𝑎
-𝑙
-=
-1
-𝐶
-1
-+
-1
-𝐶
-2
-+
-⋯
-+
-1
-𝐶
-𝑛
-C 
-total
-​
- 
-1
-​
- = 
-C 
-1
-​
- 
-1
-​
- + 
-C 
-2
-​
- 
-1
-​
- +⋯+ 
-C 
-n
-​
- 
-1
-​
- 
-Parallel Capacitors:
+### Series and Parallel Combinations
 
-𝐶
-𝑡
-𝑜
-𝑡
-𝑎
-𝑙
-=
-𝐶
-1
-+
-𝐶
-2
-+
-⋯
-+
-𝐶
-𝑛
-C 
-total
-​
- =C 
-1
-​
- +C 
-2
-​
- +⋯+C 
-n
-​
- 
-Series Inductors:
+1. **Series Resistors:**
+   - \( R_{total} = R_1 + R_2 + \cdots + R_n \)
 
-𝐿
-𝑡
-𝑜
-𝑡
-𝑎
-𝑙
-=
-𝐿
-1
-+
-𝐿
-2
-+
-⋯
-+
-𝐿
-𝑛
-L 
-total
-​
- =L 
-1
-​
- +L 
-2
-​
- +⋯+L 
-n
-​
- 
-Parallel Inductors:
+2. **Parallel Resistors:**
+   - \( \frac{1}{R_{total}} = \frac{1}{R_1} + \frac{1}{R_2} + \cdots + \frac{1}{R_n} \)
 
-1
-𝐿
-𝑡
-𝑜
-𝑡
-𝑎
-𝑙
-=
-1
-𝐿
-1
-+
-1
-𝐿
-2
-+
-⋯
-+
-1
-𝐿
-𝑛
-L 
-total
-​
- 
-1
-​
- = 
-L 
-1
-​
- 
-1
-​
- + 
-L 
-2
-​
- 
-1
-​
- +⋯+ 
-L 
-n
-​
- 
-1
-​
- 
-Kirchhoff’s Laws
-Kirchhoff’s Current Law (KCL):
+3. **Series Capacitors:**
+   - \( \frac{1}{C_{total}} = \frac{1}{C_1} + \frac{1}{C_2} + \cdots + \frac{1}{C_n} \)
 
-∑
-𝐼
-𝑖
-𝑛
-=
-∑
-𝐼
-𝑜
-𝑢
-𝑡
-∑I 
-in
-​
- =∑I 
-out
-​
- 
-Kirchhoff’s Voltage Law (KVL):
+4. **Parallel Capacitors:**
+   - \( C_{total} = C_1 + C_2 + \cdots + C_n \)
 
-∑
-𝑉
-=
-0
-∑V=0 (around a closed loop)
-AC Circuits
-Impedance:
+5. **Series Inductors:**
+   - \( L_{total} = L_1 + L_2 + \cdots + L_n \)
 
-Resistor: 
-𝑍
-𝑅
-=
-𝑅
-Z 
-R
-​
- =R
-Inductor: 
-𝑍
-𝐿
-=
-𝑗
-𝜔
-𝐿
-Z 
-L
-​
- =jωL
-Capacitor: 
-𝑍
-𝐶
-=
-1
-𝑗
-𝜔
-𝐶
-Z 
-C
-​
- = 
-jωC
-1
-​
- 
-Reactance:
+6. **Parallel Inductors:**
+   - \( \frac{1}{L_{total}} = \frac{1}{L_1} + \frac{1}{L_2} + \cdots + \frac{1}{L_n} \)
 
-Inductive Reactance: 
-𝑋
-𝐿
-=
-𝜔
-𝐿
-X 
-L
-​
- =ωL
-Capacitive Reactance: 
-𝑋
-𝐶
-=
-1
-𝜔
-𝐶
-X 
-C
-​
- = 
-ωC
-1
-​
- 
-Phasor Relationships:
+### Kirchhoff’s Laws
 
-𝑉
-𝑅
-=
-𝐼
-𝑅
-V 
-R
-​
- =IR
-𝑉
-𝐿
-=
-𝐼
-(
-𝑗
-𝜔
-𝐿
-)
-V 
-L
-​
- =I(jωL)
-𝑉
-𝐶
-=
-𝐼
-(
-1
-𝑗
-𝜔
-𝐶
-)
-V 
-C
-​
- =I( 
-jωC
-1
-​
- )
-Power in AC Circuits:
+1. **Kirchhoff’s Current Law (KCL):**
+   - \( \sum I_{in} = \sum I_{out} \)
 
-Apparent Power: 
-𝑆
-=
-𝑉
-𝐼
-∗
-S=VI 
-∗
-  (where 
-𝐼
-∗
-I 
-∗
-  is the complex conjugate of 
-𝐼
-I)
-Real Power: 
-𝑃
-=
-𝑉
-𝐼
-cos
-⁡
-(
-𝜃
-)
-P=VIcos(θ)
-Reactive Power: 
-𝑄
-=
-𝑉
-𝐼
-sin
-⁡
-(
-𝜃
-)
-Q=VIsin(θ)
-Power Factor: 
-pf
-=
-cos
-⁡
-(
-𝜃
-)
-pf=cos(θ)
-Network Theorems
-Superposition Theorem:
+2. **Kirchhoff’s Voltage Law (KVL):**
+   - \( \sum V = 0 \) (around a closed loop)
 
-Total response in any element is the sum of the responses caused by each independent source acting alone.
-Thevenin’s Theorem:
+### AC Circuits
 
-Any network can be replaced by an equivalent voltage source 
-𝑉
-𝑡
-ℎ
-V 
-th
-​
-  in series with a resistance 
-𝑅
-𝑡
-ℎ
-R 
-th
-​
- .
-Norton’s Theorem:
+1. **Impedance:**
+   - Resistor: \( Z_R = R \)
+   - Inductor: \( Z_L = j\omega L \)
+   - Capacitor: \( Z_C = \frac{1}{j\omega C} \)
 
-Any network can be replaced by an equivalent current source 
-𝐼
-𝑁
-I 
-N
-​
-  in parallel with a resistance 
-𝑅
-𝑁
-R 
-N
-​
- .
-Maximum Power Transfer Theorem:
+2. **Reactance:**
+   - Inductive Reactance: \( X_L = \omega L \)
+   - Capacitive Reactance: \( X_C = \frac{1}{\omega C} \)
 
-Maximum power is delivered to the load when 
-𝑅
-𝐿
-=
-𝑅
-𝑡
-ℎ
-R 
-L
-​
- =R 
-th
-​
- .
-Advanced Topics
-Laplace Transform:
+3. **Phasor Relationships:**
+   - \( V_R = IR \)
+   - \( V_L = I(j\omega L) \)
+   - \( V_C = I \left(\frac{1}{j\omega C}\right) \)
 
-𝑉
-(
-𝑠
-)
-=
-𝐿
-{
-𝑣
-(
-𝑡
-)
-}
-V(s)=L{v(t)}
-𝐼
-(
-𝑠
-)
-=
-𝐿
-{
-𝑖
-(
-𝑡
-)
-}
-I(s)=L{i(t)}
-Impedance in s-domain:
-Resistor: 
-𝑍
-𝑅
-(
-𝑠
-)
-=
-𝑅
-Z 
-R
-​
- (s)=R
-Inductor: 
-𝑍
-𝐿
-(
-𝑠
-)
-=
-𝑠
-𝐿
-Z 
-L
-​
- (s)=sL
-Capacitor: 
-𝑍
-𝐶
-(
-𝑠
-)
-=
-1
-𝑠
-𝐶
-Z 
-C
-​
- (s)= 
-sC
-1
-​
- 
-Transfer Functions:
+4. **Power in AC Circuits:**
+   - Apparent Power: \( S = VI^* \) (where \( I^* \) is the complex conjugate of \( I \))
+   - Real Power: \( P = VI \cos(\theta) \)
+   - Reactive Power: \( Q = VI \sin(\theta) \)
+   - Power Factor: \( \text{pf} = \cos(\theta) \)
 
-𝐻
-(
-𝑠
-)
-=
-𝑉
-𝑜
-𝑢
-𝑡
-(
-𝑠
-)
-𝑉
-𝑖
-𝑛
-(
-𝑠
-)
-H(s)= 
-V 
-in
-​
- (s)
-V 
-out
-​
- (s)
-​
- 
-State-Space Analysis:
+### Network Theorems
 
-State Equations: 
-𝑥
-˙
-(
-𝑡
-)
-=
-𝐴
-𝑥
-(
-𝑡
-)
-+
-𝐵
-𝑢
-(
-𝑡
-)
-x
-˙
- (t)=Ax(t)+Bu(t)
-Output Equation: 
-𝑦
-(
-𝑡
-)
-=
-𝐶
-𝑥
-(
-𝑡
-)
-+
-𝐷
-𝑢
-(
-𝑡
-)
-y(t)=Cx(t)+Du(t)
-Fourier Series and Fourier Transform:
+1. **Superposition Theorem:**
+   - Total response in any element is the sum of the responses caused by each independent source acting alone.
 
-Fourier Series: 
-𝑓
-(
-𝑡
-)
-=
-∑
-𝑛
-=
-−
-∞
-∞
-𝐶
-𝑛
-𝑒
-𝑗
-𝑛
-𝜔
-0
-𝑡
-f(t)=∑ 
-n=−∞
-∞
-​
- C 
-n
-​
- e 
-jnω 
-0
-​
- t
- 
-Fourier Transform: 
-𝐹
-(
-𝜔
-)
-=
-∫
-−
-∞
-∞
-𝑓
-(
-𝑡
-)
-𝑒
-−
-𝑗
-𝜔
-𝑡
-𝑑
-𝑡
-F(ω)=∫ 
-−∞
-∞
-​
- f(t)e 
-−jωt
- dt
-Bode Plot:
+2. **Thevenin’s Theorem:**
+   - Any network can be replaced by an equivalent voltage source \( V_{th} \) in series with a resistance \( R_{th} \).
 
-Magnitude Plot: 
-20
-log
-⁡
-10
-∣
-𝐻
-(
-𝑗
-𝜔
-)
-∣
-20log 
-10
-​
- ∣H(jω)∣
-Phase Plot: 
-∠
-𝐻
-(
-𝑗
-𝜔
-)
-∠H(jω)
-Nyquist Plot:
+3. **Norton’s Theorem:**
+   - Any network can be replaced by an equivalent current source \( I_N \) in parallel with a resistance \( R_N \).
 
-Plot of 
-𝐻
-(
-𝑗
-𝜔
-)
-H(jω) on the complex plane as 
-𝜔
-ω varies from 
-−
-∞
-−∞ to 
-∞
-∞.
-Root Locus:
+4. **Maximum Power Transfer Theorem:**
+   - Maximum power is delivered to the load when \( R_L = R_{th} \).
 
-Graphical representation of the roots of the characteristic equation of a control system as a system parameter is varied.
-Network Analysis Techniques
-Mesh Analysis:
+### Advanced Topics
 
-Use KVL to write equations for each mesh (independent loop).
-Solve the resulting system of linear equations to find mesh currents.
-Nodal Analysis:
+1. **Laplace Transform:**
+   - \( V(s) = \mathcal{L}\{v(t)\} \)
+   - \( I(s) = \mathcal{L}\{i(t)\} \)
+   - Impedance in s-domain:
+     - Resistor: \( Z_R(s) = R \)
+     - Inductor: \( Z_L(s) = sL \)
+     - Capacitor: \( Z_C(s) = \frac{1}{sC} \)
 
-Use KCL to write equations for each node (excluding reference node).
-Solve the resulting system of linear equations to find node voltages.
-Specialized Components and Circuits
-RLC Circuits:
+2. **Transfer Functions:**
+   - \( H(s) = \frac{V_{out}(s)}{V_{in}(s)} \)
 
-Series RLC Circuit: 
-𝑍
-=
-𝑅
-+
-𝑗
-(
-𝜔
-𝐿
-−
-1
-𝜔
-𝐶
-)
-Z=R+j(ωL− 
-ωC
-1
-​
- )
-Parallel RLC Circuit: 
-𝑌
-=
-𝐺
-+
-𝑗
-(
-𝜔
-𝐶
-−
-1
-𝜔
-𝐿
-)
-Y=G+j(ωC− 
-ωL
-1
-​
- )
-Transformers:
+3. **State-Space Analysis:**
+   - State Equations: \( \dot{x}(t) = Ax(t) + Bu(t) \)
+   - Output Equation: \( y(t) = Cx(t) + Du(t) \)
 
-Turns Ratio: 
-𝑁
-1
-𝑁
-2
-=
-𝑉
-1
-𝑉
-2
-=
-𝐼
-2
-𝐼
-1
-N 
-2
-​
- 
-N 
-1
-​
- 
-​
- = 
-V 
-2
-​
- 
-V 
-1
-​
- 
-​
- = 
-I 
-1
-​
- 
-I 
-2
-​
- 
-​
- 
-Impedance Reflection: 
-𝑍
-𝑖
-𝑛
-=
-(
-𝑁
-1
-𝑁
-2
-)
-2
-𝑍
-𝑙
-𝑜
-𝑎
-𝑑
-Z 
-in
-​
- =( 
-N 
-2
-​
- 
-N 
-1
-​
- 
-​
- ) 
-2
- Z 
-load
-​
- 
-Operational Amplifiers:
+4. **Fourier Series and Fourier Transform:**
+   - Fourier Series: \( f(t) = \sum_{n=-\infty}^{\infty} C_n e^{j n \omega_0 t} \)
+   - Fourier Transform: \( F(\omega) = \int_{-\infty}^{\infty} f(t) e^{-j \omega t} dt \)
 
-Inverting Amplifier: 
-𝑉
-𝑜
-𝑢
-𝑡
-=
-−
-(
-𝑅
-𝑓
-𝑅
-𝑖
-𝑛
-)
-𝑉
-𝑖
-𝑛
-V 
-out
-​
- =−( 
-R 
-in
-​
- 
-R 
-f
-​
- 
-​
- )V 
-in
-​
- 
-Non-Inverting Amplifier: 
-𝑉
-𝑜
-𝑢
-𝑡
-=
-(
-1
-+
-𝑅
-𝑓
-𝑅
-𝑖
-𝑛
-)
-𝑉
-𝑖
-𝑛
-V 
-out
-​
- =(1+ 
-R 
-in
-​
- 
-R 
-f
-​
- 
-​
- )V 
-in
-​
- 
-Integrator: 
-𝑉
-𝑜
-𝑢
-𝑡
-=
-−
-1
-𝑅
-𝐶
-∫
-𝑉
-𝑖
-𝑛
- 
-𝑑
-𝑡
-V 
-out
-​
- =− 
-RC
-1
-​
- ∫V 
-in
-​
- dt
-Differentiator: 
-𝑉
-𝑜
-𝑢
-𝑡
-=
-−
-𝑅
-𝐶
-𝑑
-𝑉
-𝑖
-𝑛
-𝑑
-𝑡
-V 
-out
-​
- =−RC 
-dt
-dV 
-in
-​
- 
-​
- 
-Two-Port Networks
-Z-Parameters (Impedance Parameters):
+5. **Bode Plot:**
+   - Magnitude Plot: \( 20 \log_{10}|H(j\omega)| \)
+   - Phase Plot: \( \angle H(j\omega) \)
 
-𝑉
-1
-=
-𝑍
-11
-𝐼
-1
-+
-𝑍
-12
-𝐼
-2
-V 
-1
-​
- =Z 
-11
-​
- I 
-1
-​
- +Z 
-12
-​
- I 
-2
-​
- 
-𝑉
-2
-=
-𝑍
-21
-𝐼
-1
-+
-𝑍
-22
-𝐼
-2
-V 
-2
-​
- =Z 
-21
-​
- I 
-1
-​
- +Z 
-22
-​
- I 
-2
-​
- 
-Y-Parameters (Admittance Parameters):
+6. **Nyquist Plot:**
+   - Plot of \( H(j\omega) \) on the complex plane as \( \omega \) varies from \(-\infty\) to \(\infty\).
 
-𝐼
-1
-=
-𝑌
-11
-𝑉
-1
-+
-𝑌
-12
-𝑉
-2
-I 
-1
-​
- =Y 
-11
-​
- V 
-1
-​
- +Y 
-12
-​
- V 
-2
-​
- 
-𝐼
-2
-=
-𝑌
-21
-𝑉
-1
-+
-𝑌
-22
-𝑉
-2
-I 
-2
-​
- =Y 
-21
-​
- V 
-1
-​
- +Y 
-22
-​
- V 
-2
-​
- 
-h-Parameters (Hybrid Parameters):
+7. **Root Locus:**
+   - Graphical representation of the roots of the characteristic equation of a control system as a system parameter is varied.
 
-𝑉
-1
-=
-ℎ
-11
-𝐼
-1
-+
-ℎ
-12
-𝑉
-2
-V 
-1
-​
- =h 
-11
-​
- I 
-1
-​
- +h 
-12
-​
- V 
-2
-​
- 
-𝐼
-2
-=
-ℎ
-21
-𝐼
-1
-+
-ℎ
-22
-𝑉
-2
-I 
-2
-​
- =h 
-21
-​
- I 
-1
-​
- +h 
-22
-​
- V 
-2
-​
- 
-g-Parameters (Inverse Hybrid Parameters):
+### Network Analysis Techniques
 
-𝐼
-1
-=
-𝑔
-11
-𝑉
-1
-+
-𝑔
-12
-𝐼
-2
-I 
-1
-​
- =g 
-11
-​
- V 
-1
-​
- +g 
-12
-​
- I 
-2
-​
- 
-𝑉
-2
-=
-𝑔
-21
-𝑉
-1
-+
-𝑔
-22
-𝐼
-2
-V 
-2
-​
- =g 
-21
-​
- V 
-1
-​
- +g 
-22
-​
- I 
-2
-​
- 
-ABCD-Parameters (Transmission Parameters):
+1. **Mesh Analysis:**
+   - Use KVL to write equations for each mesh (independent loop).
+   - Solve the resulting system of linear equations to find mesh currents.
 
-𝑉
-1
-=
-𝐴
-𝑉
-2
-+
-𝐵
-𝐼
-2
-V 
-1
-​
- =AV 
-2
-​
- +BI 
-2
-​
- 
-𝐼
-1
-=
-𝐶
-𝑉
-2
-+
-𝐷
-𝐼
-2
-I 
-1
-​
- =CV 
-2
-​
- +DI 
-2
-​
+2. **Nodal Analysis:**
+   - Use KCL to write equations for each node (excluding reference node).
+   - Solve the resulting system of linear equations to find node voltages.
+
+### Specialized Components and Circuits
+
+1. **RLC Circuits:**
+   - Series RLC Circuit: \( Z = R + j\left(\omega L - \frac{1}{\omega C}\right) \)
+   - Parallel RLC Circuit: \( Y = G + j\left(\omega C - \frac{1}{\omega L}\right) \)
+
+2. **Transformers:**
+   - Turns Ratio: \( \frac{N_1}{N_2} = \frac{V_1}{V_2} = \frac{I_2}{I_1} \)
+   - Impedance Reflection: \( Z_{in} = \left(\frac{N_1}{N_2}\right)^2 Z_{load} \)
+
+3. **Operational Amplifiers:**
+   - Inverting Amplifier: \( V_{out} = -\left(\frac{R_f}{R_{in}}\right) V_{in} \)
+   - Non-Inverting Amplifier: \( V_{out} = \left(1 + \frac{R_f}{R_{in}}\right) V_{in} \)
+   - Integrator: \( V_{out} = -\frac{1}{R C} \int V_{in} \, dt \)
+   - Differentiator: \( V_{out} = -R C \frac{dV_{in}}{dt} \)
+
+### Two-Port Networks
+
+1. **Z-Parameters (Impedance Parameters):**
+   - \( V_1 = Z_{11}I_1 + Z_{12}I_2 \)
+   - \( V_2 = Z_{21}I_1 + Z_{22}I_2 \)
+
+2. **Y-Parameters (Admittance Parameters):**
+   - \( I_1 = Y_{11}V_1 + Y_{12}V_2 \)
+   - \( I_2 = Y_{21}V_1 + Y_{22}V_2 \)
+
+3. **h-
+
+Parameters (Hybrid Parameters):**
+   - \( V_1 = h_{11}I_1 + h_{12}V_2 \)
+   - \( I_2 = h_{21}I_1 + h_{22}V_2 \)
+
+4. **g-Parameters (Inverse Hybrid Parameters):**
+   - \( I_1 = g_{11}V_1 + g_{12}I_2 \)
+   - \( V_2 = g_{21}V_1 + g_{22}I_2 \)
+
+5. **ABCD-Parameters (Transmission Parameters):**
+   - \( V_1 = AV_2 + BI_2 \)
+   - \( I_1 = CV_2 + DI_2 \)
+
+This extensive list covers a wide range of formulas and concepts in network theory for electricity. If you need further elaboration or additional topics, feel free to ask!
